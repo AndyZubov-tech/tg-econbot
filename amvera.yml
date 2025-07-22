@@ -1,0 +1,12 @@
+meta:
+  environment: python
+  toolchain:
+    name: python
+    version: 3.11
+
+run:
+  command: python bot.py
+  
+storage:
+  - name: data
+    mount: /data
